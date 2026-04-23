@@ -1,0 +1,20 @@
+name: flutter_keycloak_authenticator
+description: A flutter package implementing keycloak mfa with https://github.com/netzbegruenung/keycloak-mfa-plugins/tree/main/app-authenticator.
+version: 0.0.1
+homepage: https://github.com/netzbegruenung/flutter-keycloak-authenticator
+
+environment:
+  sdk: ^3.11.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^10.0.0
+  dio: ^5.3.3
+  pointycastle: ^4.0.0
+  dart_jsonwebtoken: ^3.3.2
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
